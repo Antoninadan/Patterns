@@ -1,7 +1,7 @@
 package ua.i.mail100.factorymethod.model;
 
 public class Toyota extends JapanCar {
-    public Toyota(){
+    public Toyota() {
         name = "Toyota";
     }
 

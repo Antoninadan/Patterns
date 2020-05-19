@@ -1,19 +1,19 @@
 package ua.i.mail100.factorymethod;
 
 import ua.i.mail100.factorymethod.factory.car.HondaFactory;
-import ua.i.mail100.factorymethod.factory.car.CarFactory;
 import ua.i.mail100.factorymethod.factory.car.ToyotaFactory;
-import ua.i.mail100.factorymethod.model.JapanCar;
+import ua.i.mail100.factorymethod.model.Honda;
+import ua.i.mail100.factorymethod.model.Toyota;
 
 public class CarRunner {
     public static void main(String[] args) {
-        CarFactory toyotaFactory = new ToyotaFactory();
-        CarFactory hondaFactory = new HondaFactory();
+        ToyotaFactory toyotaFactory = new ToyotaFactory();
+        HondaFactory hondaFactory = new HondaFactory();
 
-        JapanCar myToyota = toyotaFactory.createCar();
-        JapanCar myHonda = hondaFactory.createCar();
+        Honda honda = hondaFactory.createCar();
+        honda.viewCar();
 
-        myToyota.viewCar();
-        myHonda.viewCar();
+        Toyota toyota = toyotaFactory.createCar();
+        toyota.viewCar();
     }
 }
