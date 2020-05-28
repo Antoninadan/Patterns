@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
+//https://refactoring.guru/uk/design-patterns/iterator/java/example
 public class IteratorRunner {
     public static Scanner scanner = new Scanner(System.in);
 

@@ -6,6 +6,7 @@ import ua.i.mail100.builder.director.Director;
 import ua.i.mail100.builder.product.Car;
 import ua.i.mail100.builder.product.Manual;
 
+//https://refactoring.guru/uk/design-patterns/builder
 public class BuilderRunner {
     public static void main(String[] args) {
         Director director = new Director();

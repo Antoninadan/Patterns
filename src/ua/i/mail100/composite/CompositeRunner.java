@@ -8,6 +8,7 @@ import ua.i.mail100.composite.service.ImageEditor;
 
 import java.awt.*;
 
+//https://refactoring.guru/uk/design-patterns/composite/java/example
 public class CompositeRunner {
     public static void main(String[] args) {
         ImageEditor editor = new ImageEditor();

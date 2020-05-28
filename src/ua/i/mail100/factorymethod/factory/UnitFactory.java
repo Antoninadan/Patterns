@@ -1,4 +1,4 @@
-package ua.i.mail100.factorymethod.factory.unit;
+package ua.i.mail100.factorymethod.factory;
 
 import ua.i.mail100.factorymethod.interfaces.Unit;
 

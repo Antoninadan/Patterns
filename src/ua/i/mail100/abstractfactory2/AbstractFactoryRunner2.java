@@ -5,6 +5,7 @@ import ua.i.mail100.abstractfactory2.factory.GUIFactory;
 import ua.i.mail100.abstractfactory2.factory.MacOSFactory;
 import ua.i.mail100.abstractfactory2.factory.WindowsFactory;
 
+//https://refactoring.guru/uk/design-patterns/abstract-factory/java/example
 public class AbstractFactoryRunner2 {
     /**
      * Application picks the factory type and creates it in run time (usually at

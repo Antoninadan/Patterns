@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
+//https://codelab.ru/pattern/observer/
 /* Объект Users сохраняет список имен пользователей, подключившихся к системе.
         Когда очередной пользователь подключается к системе либо, наоборот, отключается от нее,
         всем объектам Observer передается его имя.

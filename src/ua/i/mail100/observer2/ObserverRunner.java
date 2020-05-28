@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+//https://codelab.ru/pattern/observer/
 public class ObserverRunner {
     public static void main(String[] args) {
         Subject subject1 = new Subject(1);

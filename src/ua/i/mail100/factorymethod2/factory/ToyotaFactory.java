@@ -1,6 +1,6 @@
-package ua.i.mail100.factorymethod.factory.car;
+package ua.i.mail100.factorymethod2.factory;
 
-import ua.i.mail100.factorymethod.model.Toyota;
+import ua.i.mail100.factorymethod2.model.Toyota;
 
 public class ToyotaFactory extends CarFactory {
     @Override

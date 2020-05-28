@@ -1,24 +1,24 @@
-package ua.i.mail100.factorymethod.factory.unit;
+package ua.i.mail100.factorymethod.factory;
 
 import ua.i.mail100.factorymethod.interfaces.Unit;
 
-public class ChineseFactory extends UnitFactory {
+public class AmericanFactory extends UnitFactory {
     @Override
     Unit getUnit() {
         return new Unit() {
             @Override
             public String getName() {
-                return "Chinese";
+                return "American";
             }
 
             @Override
             public String getFace() {
-                return "-_-";
+                return "~+_+~";
             }
 
             @Override
             public String getWeapon() {
-                return "=|---";
+                return "=-->";
             }
         };
     }

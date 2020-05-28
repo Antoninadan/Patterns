@@ -1,6 +1,6 @@
-package ua.i.mail100.factorymethod.model;
+package ua.i.mail100.factorymethod2.model;
 
-public class Honda extends JapanCar{
+public class Honda extends JapanCar {
     public Honda(){
         name = "Honda";
     }

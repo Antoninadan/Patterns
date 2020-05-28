@@ -1,9 +1,9 @@
-package ua.i.mail100.factorymethod;
+package ua.i.mail100.factorymethod2;
 
-import ua.i.mail100.factorymethod.factory.car.HondaFactory;
-import ua.i.mail100.factorymethod.factory.car.ToyotaFactory;
-import ua.i.mail100.factorymethod.model.Honda;
-import ua.i.mail100.factorymethod.model.Toyota;
+import ua.i.mail100.factorymethod2.factory.HondaFactory;
+import ua.i.mail100.factorymethod2.factory.ToyotaFactory;
+import ua.i.mail100.factorymethod2.model.Honda;
+import ua.i.mail100.factorymethod2.model.Toyota;
 
 public class CarRunner {
     public static void main(String[] args) {

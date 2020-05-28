@@ -1,5 +1,6 @@
 package ua.i.mail100.singleton;
 
+//https://refactoring.guru/uk/design-patterns/singleton/java/example
 public class SingletonRunner {
     public static void main(String[] args) {
         System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
