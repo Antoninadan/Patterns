@@ -8,11 +8,6 @@ public class BaseDecorator implements WrappeeInterface {
     }
 
     @Override
-    public String toPrint(String data) {
-        return wrappee.toPrint(data);
-    }
-
-    @Override
     public void print(String data) {
         wrappee.print(data);
     }

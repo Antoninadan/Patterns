@@ -7,11 +7,6 @@ public class CurlyBraces extends BaseDecorator{
     }
 
     @Override
-    public String toPrint(String data)    {
-        return "{" + data + "}";
-    }
-
-    @Override
     public void print(String data) {
         super.print(decorateBraces(data));
     }
