@@ -1,9 +1,9 @@
 package ua.i.mail100.decorator2;
 
 // ConcreteDecorator
-public class SquareBraces extends BaseDecorator{
+public class SlashBraces extends BaseDecorator{
 
-    public SquareBraces(WrappeeInterface wrappee) {
+    public SlashBraces(WrappeeInterface wrappee) {
         super(wrappee);
     }
 
@@ -13,6 +13,6 @@ public class SquareBraces extends BaseDecorator{
     }
 
     private String decorateBraces(String text){
-        return "[" + text + "]";
+        return "/" + text + "/";
     }
 }

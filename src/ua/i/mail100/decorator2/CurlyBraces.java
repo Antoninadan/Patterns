@@ -1,5 +1,6 @@
 package ua.i.mail100.decorator2;
 
+// ConcreteDecorator
 public class CurlyBraces extends BaseDecorator{
 
     public CurlyBraces(WrappeeInterface wrappee) {

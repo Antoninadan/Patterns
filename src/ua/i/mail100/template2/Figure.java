@@ -13,7 +13,7 @@ public abstract class Figure {
 
     public abstract int[][] getPoints();
 
-    public void drow() {
+    public final void draw() {
         int[][] points = getPoints();
         int pointSizeX = points.length;
         int pointSizeY = points[0].length;

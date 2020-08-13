@@ -12,7 +12,7 @@ public class Runner {
     public static void main(String[] args) {
         String text = "Hello world";
 
-        BaseDecorator decorated = new CurlyBraces(new SquareBraces( new Printer()));
+        BaseDecorator decorated = new CurlyBraces(new SquareBraces (new SlashBraces( new Printer())));
 
         decorated.print(text);
     }

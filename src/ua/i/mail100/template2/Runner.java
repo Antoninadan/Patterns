@@ -10,15 +10,15 @@ public class Runner  {
         Figure triangle = new Triangle(size);
 
         System.out.println("square:");
-        square.drow();
+        square.draw();
 
         System.out.println("cross:");
-        cross.drow();
+        cross.draw();
 
         System.out.println("line");
-        line.drow();
+        line.draw();
 
         System.out.println("trianle");
-        triangle.drow();
+        triangle.draw();
     }
 }
